@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      h1 {
+        text-shadow: 2px 2px;
+      }
+      div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+div {
+  width: 300px;
+  height: 100px;
+  background-color: purple;
+  border: 1px solid seashell;
+  transform: translate(50px,100px);
+}
+div{
+width: 300px;
+  height: 100px;
+  background-color:purple;
+  border: 1px solid seashell;
+}
+
+#myDiv {
+  transform: rotateX(150deg);
+}
+div{
+width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+#grad1 {
+        height: 200px;
+        background-color: red;
+        background-image: linear-gradient(red, yellow);
+      }
+      * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+  </head>
+  <body>
+    <h1>shadows demo</h1>
+    <a href="index.html"></a>
+    </div>
+    <h1>Text-shadow effect!</h1>
+
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>transitions demo</h1>
+    <a href="index.html"></a>
+    </div>
+    <h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+<div></div>
+
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>2D </h1>
+    <a href="index.html"></a>
+    </div>
+    <<div>
+        2D 
+        </div>
+
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>3D transformations demo</h1>
+    <a href="index.html"></a>
+    </div>
+    <<div>
+        Narmal 3D transformations demo
+        </div>
+
+        <div id="myDiv">
+            This div element is rotated 150 degrees.
+            </div>
+
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>animation demo</h1>
+    <a href="index.html"></a>
+    </div>
+    <h1>CSS Animation</h1>
+
+    <div></div>
+    
+    <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>background gradients demo</h1>
+    <a href="index.html"></a>
+    </div>
+    <div id="grad1"></div>
+    <code>
+      border-radius: 25px;
+    </code>
+    <h1>columns-multiple-columns demo</h1>
+    <a href="index.html"></a>
+    </div>
+   
+    <h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+    <code>
+      border-radius: 25px;
+    </code>
+    <div
+      style="
+        border-radius: 20px;
+        background: green;
+        padding: 28px;
+        width: 200px;
+        height: 150px;
+      "
+    >
+      Demonstration
+    </div>
+    <code>
+      border-radius: 25px;
+    </code>
+  </body>
+</html>
